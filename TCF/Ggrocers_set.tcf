@@ -3,7 +3,7 @@
 
  SET_TYPE = SYSTEM
  SET_NAME = Ggrocers_set
- GENERATED_BY = Testbed 9.8.7
+ GENERATED_BY = Testbed 9.8.8
  HOSTNAME = LDRA_FISH6
 
     # Begin Source Files
@@ -73,7 +73,7 @@
     copy_ref_instr = 0
     archive_exh = T
     force_dynsplit = T
-    dyn_scan_option = 9
+    dyn_scan_option = 6
     dyn_scan_custom_data = 8 1 1 1 0 1 1 1 1
     dyn_scan_custom_coverage = 5 100 100 100 60 100
     dyn_scan_current_coverage = 5 100 100 100 60 100
@@ -128,7 +128,7 @@
     iprog_flush_exh = F
     preprocess_iprog = T
     instr_template_io = F
-    current_compiler = MinGW310 GCC C/C++ v3.2.3
+    current_compiler = MinGW502 GCC C/C++ v3.4.4
 
     # End Options
 
