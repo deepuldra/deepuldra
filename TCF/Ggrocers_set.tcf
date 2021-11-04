@@ -9,7 +9,7 @@
     # Begin Source Files
 
     RelativeFile = .\Ggrocers.c
-    File = D:\Customers\Microchip Vietnam\Git_project\deepuldra\deepu\Ggrocers.c
+    File = D:\Customers\Microchip Vietnam\Git_project\deepuldra\Ggrocers.c
     UNCFile = \\LDRA_FISH6\D\Customers\Microchip Vietnam\Git_project\deepuldra\Ggrocers.c
 
     # End Source Files
@@ -26,9 +26,9 @@
 
     # Begin Options
 
-    set_attributes = 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    set_attributes = 2 1 1 1 1 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0
     nb_mechanism = build
-    nb_start_in_dir = D:\Customers\Microchip Vietnam\Git_project\deepuldra\deepu\
+    nb_start_in_dir = D:\Customers\Microchip Vietnam\Git_project\deepuldra\
     nb_build_command = gcc "$$h.$$e" -o "$$i$$x$$g"
     nb_compile_command = gcc -c "$$d$$f.$$e"
     nb_link_command = gcc $$h.o -o "$$s"
@@ -55,13 +55,13 @@
     make_greenhills_bld = 0
     set_property = 1
     nb_harness = "$$i$$x$$g"
-    nb_executepath = $(Userdir)
+    nb_executepath = $(Userdir)\
     nb_execute_each_file = F
     nb_pipe_exec = F
-    exhdir = $(Userdir)
+    exhdir = $(Userdir)\
     modinst_exh_stem = $(SourceStem)_$(Modnum)
     using_exhstrip = F
-    using_validexh = T
+    using_validexh = F
     single_set_exh = F
     compress_exh = T
     threaded_exh = F
@@ -72,7 +72,7 @@
     array_bounds_check = F
     copy_ref_instr = 0
     archive_exh = T
-    force_dynsplit = T
+    force_dynsplit = F
     dyn_scan_option = 6
     dyn_scan_custom_data = 8 1 1 1 0 1 1 1 1
     dyn_scan_custom_coverage = 5 100 100 100 60 100
@@ -85,6 +85,7 @@
     syntax_only = F
     include = T
     open_all_includes = F
+    last_complexity_choice = 0
     shorten = T
     tbset_data_file = tbset.dat
     workdir = $(WorkAreadir)Ggrocers_set_tbwrkfls\
@@ -113,9 +114,12 @@
     cpp_dialect = GCC
     cpp_language = cpp11
     application_accessed = Contestbed
+    application_accessed = TBrun
+    application_accessed = Testbed
     sysearch = <Default search - Source dir(s) - Installdir>
     sysppvar = <Default search - Source dir(s) - Installdir>
     dynamic_run_number = 1
+    data_set_name = seq1_harn_tc54
     history = 21
     coverage = 3
     exhwidth = 0
