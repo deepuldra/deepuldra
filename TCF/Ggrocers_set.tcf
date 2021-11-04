@@ -26,7 +26,7 @@
 
     # Begin Options
 
-    set_attributes = 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    set_attributes = 2 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
     nb_mechanism = build
     nb_start_in_dir = D:\Customers\Microchip Vietnam\Git_project\deepuldra\
     nb_build_command = gcc "$$h.$$e" -o "$$i$$x$$g"
