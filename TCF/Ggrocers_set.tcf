@@ -9,7 +9,7 @@
     # Begin Source Files
 
     RelativeFile = .\Ggrocers.c
-    File = D:\Customers\Microchip Vietnam\Git_project\deepuldra\Ggrocers.c
+    File = D:\Customers\Microchip Vietnam\Git_project\deepuldra\deepu\Ggrocers.c
     UNCFile = \\LDRA_FISH6\D\Customers\Microchip Vietnam\Git_project\deepuldra\Ggrocers.c
 
     # End Source Files
@@ -26,9 +26,9 @@
 
     # Begin Options
 
-    set_attributes = 2 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    set_attributes = 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
     nb_mechanism = build
-    nb_start_in_dir = D:\Customers\Microchip Vietnam\Git_project\deepuldra\
+    nb_start_in_dir = D:\Customers\Microchip Vietnam\Git_project\deepuldra\deepu\
     nb_build_command = gcc "$$h.$$e" -o "$$i$$x$$g"
     nb_compile_command = gcc -c "$$d$$f.$$e"
     nb_link_command = gcc $$h.o -o "$$s"
